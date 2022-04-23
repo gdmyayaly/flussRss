@@ -1,0 +1,27 @@
+<div id="base">
+    <div id="sidebar" class="" style="transition: all 250ms ease 0s;">
+        <div id="content">
+            <div id="header" class="pl-4 pr-4">
+                <p class="title"> Lecteur de flux rss </p>
+            </div>
+            <div id="links" class="">
+                <a href="#" class="link active">
+                    <span> vue d’ensemble </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="content_side" class="border">
+        <div id="top_bar">
+            <div id="content">
+                <div class="" style="display: flex;">
+                    <img src="assets/arrow.svg" alt="" class="mr-2" id="menu_arrow">
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 3rem;">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

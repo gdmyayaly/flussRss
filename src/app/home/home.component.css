@@ -1,0 +1,124 @@
+.content_page{
+    padding: 2rem 1rem;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col_card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col_card{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.card{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgb(0 0 0 / 10%);
+}
+.card_body{
+    padding: 1rem;
+    position: relative;
+}
+.img_card{
+    max-height: 300px;
+    max-width: 100%;
+}
+.title{
+text-align: center;
+margin-bottom: 1rem;
+margin-top: 1rem;
+border: 1px solid black;
+}
+
+.description{
+    margin-top: 1rem;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.75rem 3rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.w-100{
+    width: 100%;
+}
+.btn a,.btn a:hover{
+    text-decoration: none;
+    color: white;
+}
+.btn_dark{
+    background: #333333;
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+}
+.box_pagination{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.btn_pagination{
+  cursor: pointer;
+
+}
+.btn_desabled{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.edit{
+    padding: 5px;
+    background-color: #333333;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.position{
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+@media only screen and (max-width: 720px) {
+    .col_card {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+  
